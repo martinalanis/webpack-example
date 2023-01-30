@@ -4,6 +4,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       templateParameters: {
+        title: "Webpack Test",
         PUBLIC_URL: "demo/value",
         htmlWebpackPlugin: {
           tags: [
